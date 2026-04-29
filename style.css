@@ -4,7 +4,8 @@
   display: flex;
   /* column-gap: 10px; */
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  padding: 50px;
   /* flex-direction: column; */
   /* display and justify-content */
 }
