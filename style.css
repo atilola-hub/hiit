@@ -1,3 +1,6 @@
+.parent {
+  flex-wrap: wrap;
+}
 .parent p {
   background-color: brown;
   margin: 5px;
