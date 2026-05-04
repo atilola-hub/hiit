@@ -1,5 +1,5 @@
-.parent {
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
+.parent p {
+  background-color: brown;
+  margin: 5px;
+  padding: 2%;
 }
