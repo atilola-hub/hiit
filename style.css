@@ -1,8 +1,40 @@
-.parent {
-  flex-wrap: wrap;
+.container {
+    background-color: black;
+    padding: 20px 100px 30px 40px;
+    width: 80vw;
+    gap: 30px;
 }
-.parent p {
-  background-color: brown;
-  margin: 5px;
-  padding: 2%;
+.top {
+    gap: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.red {
+    background-color: red;
+    color: red;
+}
+.yellow {
+    background-color: yellow;
+    color: yellow;
+}
+.buttom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+}
+.green {
+    background-color: green;
+    color: green;
+}
+.blue {
+    gap: 30px;
+}
+.blue1 {
+    background-color: blue;
+    color: blue;
+}
+.blue2 {
+    background-color: blue;
+    color: blue;
 }
