@@ -1,40 +1,41 @@
-.container {
-    background-color: black;
-    padding: 20px 100px 30px 40px;
-    width: 80vw;
-    gap: 30px;
-}
-.top {
-    gap: 30px;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-.red {
-    background-color: red;
-    color: red;
-}
-.yellow {
-    background-color: yellow;
-    color: yellow;
-}
-.buttom {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
 
+.container {
+  display: flex;
+  width: 900px;
 }
-.green {
-    background-color: green;
-    color: green;
+.firstContainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: hsl(31, 77%, 52%);
+  
+  padding: 40px;
+  /* color: white; */
+  
+  
 }
-.blue {
-    gap: 30px;
+.secondContainer {
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* color: white; */
+
+  
 }
-.blue1 {
-    background-color: blue;
-    color: blue;
-}
-.blue2 {
-    background-color: blue;
-    color: blue;
+.thirdContainer {
+  background-color: hsl(179, 100%, 13%);
+  padding: 40px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* color: white; */
+  
 }
